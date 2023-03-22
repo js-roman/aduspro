@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="responsive.css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="grid_lines.css" />
+    <!-- Bootstrap Bundle JS (jsDelivr CDN) -->
+    <!-- <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script> -->
+  </head>
+  <body>
+    <header>
+      <!-- <div class="controls"> -->
+      <!-- <button type="button" id="up_button" onclick="changeSlide('up')">
+        Up
+      </button> -->
+      <!-- <button
+        type="button"
+        id="down_button"
+        class="hidden"
+        onclick="changeSlide('down')"
+      >
+        Down
+      </button> -->
+      <div class="most-upstairs-up" id="up_button" onclick="changeSlide('up')">
+        <div class="storona-uveka-up"></div>
+      </div>
+
+      <div
+        class="most-upstairs hidden"
+        id="down_button"
+        onclick="changeSlide('down')"
+      >
+        <div class="storona-uveka"></div>
+      </div>
+
+      <!-- </div> -->
+    </header>
+
+    <!-- sobre nosotros 
+    galeria 
+    precios
+     preguntas frecuentes -->
+    <div class="window_container">
+      <div id="main_content">
+        <div class="slide appearance" id="slide0">
+          <div id="grids">
+            <div id="v_grids">
+              <div class="v_box"></div>
+              <div class="v_box"></div>
+              <div class="v_box"></div>
+            </div>
+            <div id="g_grids">
+              <div class="g_box"></div>
+              <div class="g_box"></div>
+              <div class="g_box"></div>
+            </div>
+          </div>
+          <div class="slide_name">
+            <span>Sobre nosotros</span>
+            <div class="saber_more" onclick="alert('under construction')">
+              Click aqui para saber mas...
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="slide1">
+          <div class="slide_name">
+            <span>Preguntas frecuentes</span>
+            <div class="saber_more" onclick="alert('under construction')">
+              Click aqui para saber mas...
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="slide2">
+          <div class="slide_name">
+            <span>Precios</span>
+            <div class="saber_more" onclick="alert('under construction')">
+              Click aqui para saber mas...
+            </div>
+          </div>
+        </div>
+        <div class="slide" id="slide3">
+          <div class="slide_name">
+            <span>Galeria</span>
+
+            <div class="saber_more" onclick="alert('under construction')">
+              Click aqui para saber mas...
+            </div>
+
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

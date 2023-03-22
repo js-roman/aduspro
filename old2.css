@@ -1,0 +1,26 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
+
+:root {
+  --textcolor: rgb(49, 4, 4);
+  --border_color: rgb(49, 4, 4);
+  --color1: rgb(236, 231, 231);
+  --color2: rgb(180, 175, 175);
+}
+
+#slide1 {
+  background-image: url("img/001.jpg");
+}
+
+.parallax {
+  box-sizing: border-box;
+  min-height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  border: 5px solid var(--border_color);
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
