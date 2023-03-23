@@ -200,30 +200,31 @@ button {
 }
 
 .slide_name {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 .saber_more {
-  font-size: 0.3rem;
+  font-size: 1rem;
+}
+
+#slide0 {
+  background-image: url("img/001_sm.jpg");
+}
+#slide1 {
+  background-image: url("img/002_sm.jpg");
+}
+#slide2 {
+  background-image: url("img/003_sm.jpg");
+}
+#slide3 {
+  background-image: url("img/004_sm.jpg");
 }
 
 @media (min-width: 576px) {
   .slide_name {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .saber_more {
-    font-size: 0.5rem;
-  }
-  #slide0 {
-    background-image: url("img/001_sm.jpg");
-  }
-  #slide1 {
-    background-image: url("img/002_sm.jpg");
-  }
-  #slide2 {
-    background-image: url("img/003_sm.jpg");
-  }
-  #slide3 {
-    background-image: url("img/004_sm.jpg");
+    font-size: 1.2rem;
   }
 }
 
