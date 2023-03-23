@@ -186,6 +186,7 @@ button {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
 }
+
 @keyframes scroll {
   0% {
     height: 40px;
@@ -198,27 +199,29 @@ button {
   }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 992px) {
+  .slide_name {
+    font-size: 4rem;
+  }
+  .saber_more {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 668px) {
+  .slide_name {
+    font-size: 2rem;
+  }
+  .saber_more {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
   .slide_name {
     font-size: 1rem;
   }
   .saber_more {
     font-size: 0.3rem;
-  
-}
-@media (min-width: 668px) {
-  .slide_name {
-    font-size: 2rem;
-    .saber_more {
-      font-size: 0.5rem;
-    
-  }
-}
-@media (min-width: 992px) {
-  .slide_name {
-    font-size: 4rem;
-    .saber_more {
-      font-size: 1rem;
-    
   }
 }
